@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="img/calculator.png" />
     <title>Calculator</title>
   </head>
   <body>
     <div class="calculator">
       <div class="screen">0</div>
 
-      <button class="delete">Delete</button>
-      <button class="clear">Clear</button>
+      <div class="row1">
+        <button class="clear button">Clear</button>
+        <button class="delete button">Delete</button>
+      </div>
 
-      <button class="numbers" id="7" value="7">7</button>
-      <button class="numbers" id="8" value="8">8</button>
-      <button class="numbers" id="9" value="9">9</button>
-      <button id="divide">/</button>
+      <div class="row2">
+        <button class="numbers button" id="7" value="7">7</button>
+        <button class="numbers button" id="8" value="8">8</button>
+        <button class="numbers button" id="9" value="9">9</button>
+        <button class="button operator" id="divide">/</button>
+      </div>
 
-      <button class="numbers" id="4" value="4">4</button>
-      <button class="numbers" id="5" value="5">5</button>
-      <button class="numbers" id="6" value="6">6</button>
-      <button id="multiply">x</button>
+      <div class="row3">
+        <button class="numbers button" id="4" value="4">4</button>
+        <button class="numbers button" id="5" value="5">5</button>
+        <button class="numbers button" id="6" value="6">6</button>
+        <button class="button operator" id="multiply">x</button>
+      </div>
 
-      <button class="numbers" id="1" value="1">1</button>
-      <button class="numbers" id="2" value="2">2</button>
-      <button class="numbers" id="3" value="3">3</button>
-      <button id="subtract">-</button>
+      <div class="row4">
+        <button class="numbers button" id="1" value="1">1</button>
+        <button class="numbers button" id="2" value="2">2</button>
+        <button class="numbers button" id="3" value="3">3</button>
+        <button class="button operator" id="subtract">-</button>
+      </div>
 
-      <button id="decimal">.</button>
-      <button class="numbers" id="0" value="0">0</button>
-      <button id="add">+</button>
-      <button id="equals">=</button>
+      <div class="row5">
+        <button class="button" id="decimal">.</button>
+        <button class="numbers button" id="0" value="0">0</button>
+        <button class="button operator" id="add">+</button>
+        <button class="button operator" id="equals">=</button>
+      </div>
     </div>
   </body>
 </html>
