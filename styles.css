@@ -3,11 +3,17 @@
   padding: 0;
 }
 
-body {
+html {
   background-image: url(img/math.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* body {
+  background-image: url(img/math.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 .calculator {
   background: lightGrey;
   width: 300px;
