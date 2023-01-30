@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url(img/math.jpg);
+  background-image: url(img/Sprinkle.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -22,7 +22,6 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .screen {
   margin: 20px 10px;
   background-color: darkGrey;
@@ -33,7 +32,6 @@ html {
   align-items: flex-end;
   border-radius: 7px;
 }
-
 .button {
   padding: 10px 0px;
   text-align: center;
@@ -42,11 +40,9 @@ html {
   width: 50px;
   border-radius: 7px;
 }
-
 .button:hover {
   background-color: white;
 }
-
 .clear,
 .delete {
   padding: 10px 30px;
@@ -54,7 +50,6 @@ html {
   width: max-content;
   background-color: rgb(113, 113, 113);
 }
-
 .clear.button:hover {
   background-color: rgb(215, 90, 90);
 }
@@ -66,7 +61,6 @@ html {
 .operator {
   background-color: orange;
 }
-
 .row1 {
   display: flex;
   align-items: center;
